@@ -53,10 +53,13 @@ cd YOUR_REPO_NAME
 npm install
 npm start
  ```
+---
 
 ### 🔗 API Reference
 
 - Fake Store API Docs
+
+---
 
 ###    👤 Author
 
