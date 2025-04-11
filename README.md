@@ -1,57 +1,62 @@
-###   📦 React Shopping Site
-A fully functional and beautifully styled e-commerce frontend project, built using React, React Router, and the Fake Store API.
+# 📦 React Shopping Site
 
-###   🛠 Tech Stack
--React.js (CRA)
--React Router v6
--React Hooks
--Plain CSS (custom styling, no frameworks)
--Fake Store API
+A fully functional and beautifully styled **e-commerce frontend project**, built using **React**, **React Router**, and the **Fake Store API**.
 
-###    ✨ Features
+---
 
-🔐 Login Page
+## 🛠 Tech Stack
 
--Username & password form
--Authenticates using Fake Store API /auth/login
--Stores JWT in localStorage
--Redirects to product listing after success
+- ⚛️ React.js (CRA)
+- 🧭 React Router v6
+- 🎣 React Hooks
+- 🎨 Plain CSS (custom styling, no frameworks)
+- 🔗 Fake Store API
 
-🏠 Product Listing Page
+---
 
--Fetches & displays all products
--Filter by category
--Mobile-friendly responsive grid layout
--Beautiful custom product card UI
+## ✨ Features
 
-🛍️ Product Detail Page
+### 🔐 Login Page
+- Username & password form
+- Authenticates using Fake Store API `/auth/login`
+- Stores JWT in `localStorage`
+- Redirects to product listing after successful login
 
--Shows full product info (image, title, description, price)
--Description displayed as bullet points
--Add to Cart with animated popup from top
+### 🏠 Product Listing Page
+- Fetches & displays all products using `/products`
+- Filter by category using `/products/category/:category`
+- Responsive grid layout (mobile-first)
+- Beautiful custom product card UI with hover effects
 
-🛒 Cart Page
+### 🛍️ Product Detail Page
+- Shows product image, title, description (as bullet points), and price
+- Add to Cart button with animated "Item added" popup from top
 
--View, update quantity, or remove items
--See total price in INR
--Checkout clears cart + shows confirmation popup
+### 🛒 Cart Page
+- View items added to cart
+- Update quantity or remove items
+- View total price in INR
+- Checkout clears the cart and shows confirmation popup
 
-🧭 Navigation
+### 🧭 Navigation
+- Header links: Home | Cart | Logout
+- Cart icon shows total item count (badge)
+- Logout clears JWT and redirects to login
 
--Header with links to Home, Cart, and Logout
--Logout clears token and redirects to login
--Cart icon shows total item count (with badge)
+---
 
-###  🧪 How to Run Locally
+## 🧪 How to Run Locally
 
--git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
--cd YOUR_REPO_NAME
--npm install
--npm start
+```bash
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+cd YOUR_REPO_NAME
+npm install
+npm start
+
 
 ###   🔗 API Reference
 
-Fake Store API Docs
+- Fake Store API Docs
 
 
 ###    👤 Author
