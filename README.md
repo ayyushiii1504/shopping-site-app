@@ -52,10 +52,11 @@ git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
 cd YOUR_REPO_NAME
 npm install
 npm start
+ ```
 
 ### 🔗 API Reference
 
-Fake Store API Docs
+- Fake Store API Docs
 
 ###    👤 Author
 
