@@ -1,13 +1,13 @@
 .detail {
   display: flex;
   flex-direction: column;
+  
   gap: 1rem;
   max-width: 800px;
   margin: 2rem auto;
   padding: 2rem;
   background: #F8F4EF;
   background-color: #dfc5a5;
-
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
   color: #4C3F3A;
@@ -99,3 +99,4 @@
     top: -60px;
   }
 }
+  
